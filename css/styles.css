@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --primary: #fa6600;
+  --secondary: #95989a;
+  --text-color: #fff;
+  --text-secondary: #000;
+  --text-tertiary: #5d5d5d;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ***Event form*** */
+#event-subscription {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/moto5.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text-color);
+  text-align: center;
+}
+
+#disclaimer h2,
+#disclaimer .event-date {
+  color: var(--primary);
+}
+
+#disclaimer h2 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+#disclaimer .about-event {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+#disclaimer p {
+  font-size: 1.2em;
+  margin-bottom: 0.3em;
+}
+
+#disclaimer .event-date {
+  font-weight: bold;
+}
+
+#subscription-form {
+  background-color: var(--secondary);
+  padding: 2em;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 2em;
+}
+
+#subscription-form p {
+  font-size: 1.2em;
+  color: var(--text-secondary);
+  margin-bottom: 1em;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.form-group label {
+  color: var(--text-tertiary);
+  margin-bottom: 0.3em;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.btn {
+  background-color: var(--primary);
+  color: var(--text-color);
+  text-transform: uppercase;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  font-size: 1em;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+
+/* 1ª Digitação (Aqui) */
+
+
+
+
+/* Media Queries */
+@media (min-width: 768px) {
+  #event-subscription {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+  }
+
+  #disclaimer h2 {
+    font-size: 3em;
+  }
+
+  #disclaimer .about-event {
+    font-size: 2em;
+  }
+
+  
+}
