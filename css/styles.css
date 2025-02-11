@@ -103,108 +103,12 @@
   opacity: 1;
 }
 
-/* Benefits section */
-#key-benefits {
-  padding: 2em;
-  text-align: center;
-}
 
-#key-benefits h2 {
-  background-color: var(--secondary);
-  padding: 1em;
-  font-weight: 500;
-}
 
-.benefits {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2em;
-  padding: 2em 0;
-}
+/* 1ª Digitação (Aqui) */
 
-.benefit {
-  text-align: center;
-  max-width: 300px;
-}
 
-.benefit .benefit-img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-size: cover;
-  background-position: center;
-  margin: 0 auto 1em;
-}
 
-#benefit-1 {
-  background-image: url("../img/hd1.jpg");
-}
-
-#benefit-2 {
-  background-image: url("../img/hd2.jpg");
-}
-
-#benefit-3 {
-  background-image: url("../img/hd3.jpg");
-}
-
-/* Event location */
-#location {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hd1.jpg");
-  background-position: center;
-  background-size: cover;
-  padding: 2em;
-  color: var(--text-color);
-  text-align: center;
-}
-
-#address {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 2em;
-}
-
-#address img {
-  width: 48px;
-  height: 48px;
-  margin-bottom: 1em;
-}
-
-#address-details p {
-  margin-bottom: 0.5em;
-}
-
-#about-location h3 {
-  color: var(--primary);
-  font-size: 2em;
-  margin-bottom: 1em;
-}
-
-#about-location p {
-  line-height: 1.5em;
-}
-
-.bloco1 {
-  padding-left: 25px;
-  margin-top: 30px;
-  display: flex;
-}
-
-.bloco1 img {
-  width: 450px; 
-  height: 300px;
-}
-
-#texto {
-  display: flex; 
-  align-items: center; 
-  margin-left: 30px;
-  font-size: 1.9rem;
-  font-weight: bold;
-  fo
-}
 
 /* Media Queries */
 @media (min-width: 768px) {
@@ -222,22 +126,156 @@
     font-size: 2em;
   }
 
-  .benefits {
-    flex-direction: row;
-    justify-content: space-around;
-  }
+  
+}
+/* _____________________________________ */
+/* main 1 */
 
-  .detail {
-    flex-direction: row;
-    text-align: left;
-  }
+.motos {
+  background: var(--text-color);
+  margin: 30px;
 
-  .detail img {
-    width: 50%;
-  }
-
-  .detail-description {
-    width: 50%;
-  }
 }
 
+
+.titulo {
+  background: var(--secondary);
+  text-align: center;
+  padding: 25px;
+  font-size: 25px;
+  margin-bottom: 30px;
+
+}
+
+.motocicleta img {
+  width: 200px;
+  height: 200px;
+  border-radius:9999px;
+  margin: 20px;
+
+}
+.conteinersao {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.motocicleta {
+  flex-direction: column;
+
+}
+
+/* _____________________________________________ *
+/* Main 2 */
+
+.container {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hd1.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text-color);
+  padding: 20px;
+}
+
+.local {
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+.local p {
+  margin: 10px;
+}
+
+.container h1 {
+  color: var(--primary);
+  text-align: center;
+margin-bottom: 30px;
+}
+
+.container p {
+  margin-bottom: 30px;
+}
+
+/* ___________________________________________ */
+/* main 3 */
+.bloco {
+  margin: 20px;
+
+}
+.bloco img {
+ width: 800px;
+}
+.imagem {
+  display: flex;
+}
+
+.imagem img {
+  margin: 20px;
+}
+
+.textinho span {
+  margin-top: 250px;
+  font-size: 35px;
+  /* margin: 20px; */
+}
+
+.b2 {
+  margin: 30px;
+}
+.b2 img {
+  margin-left: 200px;
+
+}
+
+.b2 .texto {
+  margin-top: 100px;
+  font-size: 30px;
+}
+
+.texto li {
+  margin: 15px;
+  
+}
+
+
+/* ________________________________________________ */
+/* footer */
+
+.end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/moto6.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+  
+}
+.end h2 {
+  color: var(--text-color);
+  margin-bottom: 30px
+}
+
+.end a {
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 20px;
+  background: var(--primary);
+  opacity: 80%;
+
+}
+
+footer {
+  background: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+  font-size: 15px;
+}
+
+footer p {
+  margin: 7px;
+}
